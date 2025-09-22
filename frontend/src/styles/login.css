@@ -1,0 +1,43 @@
+.bgpattern {
+	background: linear-gradient(
+			45deg,
+			#d6e7f2 10%,
+			transparent 11%,
+			transparent 89%,
+			#d6e7f2 90%
+		),
+		linear-gradient(
+			135deg,
+			#d6e7f2 10%,
+			transparent 11%,
+			transparent 89%,
+			#d6e7f2 90%
+		),
+		radial-gradient(circle, transparent 35%, #a1c5dd 36%),
+		linear-gradient(
+			45deg,
+			transparent 46%,
+			#d6e7f2 47%,
+			#d6e7f2 52%,
+			transparent 53%
+		),
+		linear-gradient(
+			135deg,
+			transparent 46%,
+			#d6e7f2 47%,
+			#d6e7f2 52%,
+			transparent 53%
+		);
+	background-size: 3em 3em;
+	background-color: #f4faff;
+	opacity: 1;
+}
+
+.glasseffect {
+	background: rgba(244, 250, 255, 0.29);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(8.5px);
+	-webkit-backdrop-filter: blur(8.5px);
+	border: 1px solid rgba(244, 250, 255, 0.34);
+}

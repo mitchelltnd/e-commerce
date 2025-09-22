@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@font-face {
+	font-family: "Molle";
+	src: url("./assets/fonts/Molle-Italic.ttf");
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+@theme {
+	--color-maya-blue: #a1c5dd;
+	--color-alice-blue: #f4faff;
+	--color-primary-blue: #013d5b;
+	--font-molle: Molle, cursive;
+	--font-montserrat: Montserrat, sans-serif;
+}
+
+.banner_slide_item {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
